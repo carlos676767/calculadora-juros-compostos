@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+    <header class="header">
+        <p> <i class="fa-solid fa-money-bill" style="font-size: 20px;">CALCULADORA DE JUROS COMPOSTOS</i></p>
+    </header>
+    <div class="mae">
+        <div class="filha"> 
+            <label>Valor inicial:</label>
+            <input type="text" id="capitalinicial">
+            <label>Taxa de juros anual:</label>
+            <input type="text" id="taxadejuros">
+            <label>Anos de investimentos:</label>
+            <input type="text" id="anosdeinvestimentos">
+            <button id="botao">Somar</button>
+            <button id="limpar">Limpar</button>
+           <div>
+            <label>Valor final:</label>
+            <p id="totaljuros"></p>
+            <label>Valor investido:</label>
+            <p id="valorinicial"></p>
+            <label>Total em juros:</label>
+            <p id="total"></p>
+           </div>
+
+        </div>
+    </div>
+
+   <div class="cite">
+    <cite style="color: black;">- by csdev</cite>
+    <br>
+    <a href="https://github.com/carlos676767"><i class="fa-brands fa-github"></i> Github</a>
+    <a href="https://www.instagram.com/chenrique_dev/"><i class="fa-brands fa-instagram"></i> Instagram</a>
+   </div>
+    <script src="app.js"></script>
+</body>
+</html>

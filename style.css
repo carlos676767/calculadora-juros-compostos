@@ -1,0 +1,87 @@
+.mae{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: -45px;
+
+}
+
+
+
+.filha{
+    display: flex;
+    gap: 5px
+    ;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px;
+}
+
+body{
+    background-color: #C0C0C0;
+}
+
+#botao{
+    background-color: #0000FF;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.cite{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+i{
+    color: black;
+    font-size: 25px;
+}
+
+#limpar{
+    border: 2px solid #0000FF;
+    color: #0000FF;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+
+
+label{
+    color: black;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    color: black;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+input{
+    border: none;
+    outline: none;
+}
